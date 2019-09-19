@@ -11,4 +11,4 @@ If you discover a security vulnerability within BaAP, please send an e-mail to B
 
 ## License
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The BaAP is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
