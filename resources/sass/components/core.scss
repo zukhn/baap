@@ -1,0 +1,128 @@
+html, body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: $sizeFont;
+    font-weight: $sizeFontWeight;
+}
+ul, menu, dir {
+    margin:0;
+    padding:0;
+    list-style: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+li {
+    list-style:none;
+}
+a {
+    color: $colorAscent;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+a:hover, a:visited {
+    color: $colorAscent;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+}
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    resize: none;
+    border: none;
+    color: $colorDefault;
+    font-size: 1em;
+    letter-spacing: 1px;
+    width: 100%;
+}
+* {
+    outline: none !important;
+    box-sizing: border-box;
+}
+::selection {
+    color: #fff;
+    background-color: $colorAscent;
+}
+body {
+    background-color: rgba(246,249,255,.1);
+    margin: 0;
+    color: $colorFont;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: $sizeFont;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    line-height: 1;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+html {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgba(246,249,255,.1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+table {
+    background-color: transparent;
+    border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $colorFont;
+    font-size: $sizeFont;
+    margin: $sizePadding 0;
+    font-weight: 400;
+}
+h1 {
+    font-size: $sizeFont*4;
+}
+h2 {
+    font-size: $sizeFont*3;
+}
+h3 {
+    font-size: $sizeFont*2;
+}
+h4 {
+    font-size: $sizeFont*1.5;
+}
+h5 {
+    font-size: $sizeFont*1.2;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    line-height: 1.6;
+    margin: 0 0 $sizePadding;
+}
+.h_100 {
+    height: 100%;
+}
